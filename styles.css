@@ -1,0 +1,52 @@
+body {
+    background: gainsboro;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+header h1{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.post {
+    background: white;
+    margin-top: 30px;
+}
+.post img {
+    width: 100%;
+}
+.container {
+    width: 500px;
+    margin: auto;
+}
+.post h2 {
+    padding: 10px;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.post p {
+    padding: 10px;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+} 
+.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+}
+.gray-text {
+    color: gray;
+}
